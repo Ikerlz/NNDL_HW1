@@ -2,8 +2,8 @@
 
 ## 0. 简介
 
-本项目手动实现带 3 个隐藏层的 MLP并在[https://github.com/zalandoresearch/fashion-mnist](Fashion-MNIST)数据集上训练，模型结构为：
-![Plot](MLP_fig.pdf)
+本项目手动实现带 3 个隐藏层的 MLP并在[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)数据集上训练，模型结构为：
+![Plot](MLP_fig.jpeg)
 
 ## 1. 代码结果：
 
@@ -37,6 +37,6 @@ python main.py --task param_find --data_path your_data_path --epochs 100 --hidde
 
 - 训练：
   - 训练得到的损失曲线与准确率曲线：
-  ![Plot](acc_loss_plot.pdf)
+  ![Plot](acc_loss_plot.jpeg)
   - 参数权重热力图
-  ![Plot](heatmap_W.pdf)
+  ![Plot](heatmap_W.jpeg)
