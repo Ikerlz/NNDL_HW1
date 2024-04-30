@@ -5,7 +5,7 @@
 本项目手动实现带 3 个隐藏层的 MLP并在[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)数据集上训练，模型结构为：
 ![Plot](MLP_fig.jpeg)
 
-## 1. 代码结果：
+## 1. 代码结构：
 
 代码总共有三部分，主程序为`main.py`，其余的`model.py`为模型结构，`utils.py`为一些必要函数的实现
 
