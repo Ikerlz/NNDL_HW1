@@ -1,5 +1,10 @@
 # NNDL_HW1
 
+## 0. 简介
+
+本项目手动实现带 3 个隐藏层的 MLP并在[https://github.com/zalandoresearch/fashion-mnist](Fashion-MNIST)数据集上训练，模型结构为：
+![Plot](MLP_fig.pdf)
+
 ## 1. 代码结果：
 
 代码总共有三部分，主程序为`main.py`，其余的`model.py`为模型结构，`utils.py`为一些必要函数的实现
@@ -32,5 +37,6 @@ python main.py --task param_find --data_path your_data_path --epochs 100 --hidde
 
 - 训练：
   - 训练得到的损失曲线与准确率曲线：
-
- ![Plot](plot.jpg)
+  ![Plot](acc_loss_plot.pdf)
+  - 参数权重热力图
+  ![Plot](heatmap_W.pdf)
